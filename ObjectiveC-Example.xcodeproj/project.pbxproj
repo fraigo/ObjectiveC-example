@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0BA17CED2122609C002E43D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA17CEC2122609C002E43D6 /* main.m */; };
+		0BA17CF52122672F002E43D6 /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA17CF42122672F002E43D6 /* Shape.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		0BA17CE92122609C002E43D6 /* ObjectiveC-Example */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ObjectiveC-Example"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BA17CEC2122609C002E43D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0BA17CEC2122609C002E43D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "ObjectiveC-Example/main.m"; sourceTree = SOURCE_ROOT; };
+		0BA17CF32122672F002E43D6 /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		0BA17CF42122672F002E43D6 /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				0BA17CEC2122609C002E43D6 /* main.m */,
+				0BA17CF32122672F002E43D6 /* Shape.h */,
+				0BA17CF42122672F002E43D6 /* Shape.m */,
 			);
 			path = "ObjectiveC-Example";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BA17CED2122609C002E43D6 /* main.m in Sources */,
+				0BA17CF52122672F002E43D6 /* Shape.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

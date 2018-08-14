@@ -7,11 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Shape.h"
+
+
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        Shape *shape = [Shape new];
+        shape.name = @"Shape1";
+        shape.width = 23;
+        shape.height = 22;
+        [shape show];
     }
     return 0;
 }
