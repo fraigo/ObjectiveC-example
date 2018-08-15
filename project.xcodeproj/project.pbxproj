@@ -24,8 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0BA17CE92122609C002E43D6 /* ObjectiveC-Example */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ObjectiveC-Example"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BA17CEC2122609C002E43D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "ObjectiveC-Example/main.m"; sourceTree = SOURCE_ROOT; };
+		0BA17CE92122609C002E43D6 /* project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "project"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BA17CEC2122609C002E43D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "project/main.m"; sourceTree = SOURCE_ROOT; };
 		0BA17CF32122672F002E43D6 /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
 		0BA17CF42122672F002E43D6 /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -44,7 +44,7 @@
 		0BA17CE02122609C002E43D6 = {
 			isa = PBXGroup;
 			children = (
-				0BA17CEB2122609C002E43D6 /* ObjectiveC-Example */,
+				0BA17CEB2122609C002E43D6 /* project */,
 				0BA17CEA2122609C002E43D6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,27 +52,27 @@
 		0BA17CEA2122609C002E43D6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0BA17CE92122609C002E43D6 /* ObjectiveC-Example */,
+				0BA17CE92122609C002E43D6 /* project */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0BA17CEB2122609C002E43D6 /* ObjectiveC-Example */ = {
+		0BA17CEB2122609C002E43D6 /* project */ = {
 			isa = PBXGroup;
 			children = (
 				0BA17CEC2122609C002E43D6 /* main.m */,
 				0BA17CF32122672F002E43D6 /* Shape.h */,
 				0BA17CF42122672F002E43D6 /* Shape.m */,
 			);
-			path = "ObjectiveC-Example";
+			path = "project";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0BA17CE82122609C002E43D6 /* ObjectiveC-Example */ = {
+		0BA17CE82122609C002E43D6 /* project */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0BA17CF02122609C002E43D6 /* Build configuration list for PBXNativeTarget "ObjectiveC-Example" */;
+			buildConfigurationList = 0BA17CF02122609C002E43D6 /* Build configuration list for PBXNativeTarget "project" */;
 			buildPhases = (
 				0BA17CE52122609C002E43D6 /* Sources */,
 				0BA17CE62122609C002E43D6 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "ObjectiveC-Example";
-			productName = "ObjectiveC-Example";
-			productReference = 0BA17CE92122609C002E43D6 /* ObjectiveC-Example */;
+			name = "project";
+			productName = "project";
+			productReference = 0BA17CE92122609C002E43D6 /* project */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0BA17CE42122609C002E43D6 /* Build configuration list for PBXProject "ObjectiveC-Example" */;
+			buildConfigurationList = 0BA17CE42122609C002E43D6 /* Build configuration list for PBXProject "project" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0BA17CE82122609C002E43D6 /* ObjectiveC-Example */,
+				0BA17CE82122609C002E43D6 /* project */,
 			);
 		};
 /* End PBXProject section */
@@ -236,7 +236,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0BA17CE42122609C002E43D6 /* Build configuration list for PBXProject "ObjectiveC-Example" */ = {
+		0BA17CE42122609C002E43D6 /* Build configuration list for PBXProject "project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BA17CEE2122609C002E43D6 /* Debug */,
@@ -245,7 +245,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0BA17CF02122609C002E43D6 /* Build configuration list for PBXNativeTarget "ObjectiveC-Example" */ = {
+		0BA17CF02122609C002E43D6 /* Build configuration list for PBXNativeTarget "project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BA17CF12122609C002E43D6 /* Debug */,
