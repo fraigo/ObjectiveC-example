@@ -7,12 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "../app.h"
+#import "app.h"
 
 int main(int argc, const char * argv[]) {
     int result;
     @autoreleasepool {
-        // insert code here...
         result = app(argc,argv);
     }
     return result;
